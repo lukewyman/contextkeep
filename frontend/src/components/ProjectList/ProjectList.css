@@ -1,0 +1,127 @@
+/**
+ * Project list styles - Dark theme matching VS Code
+ */
+
+.project-list-container {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-list-header h2 {
+  color: #cccccc;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #3c3c3c;
+  padding-bottom: 10px;
+}
+
+.project-list-content {
+  margin-bottom: 20px;
+}
+
+/* Project Item */
+.project-item {
+  margin-bottom: 10px;
+  background-color: #252526;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  padding: 10px;
+  transition: background-color 0.2s;
+}
+
+.project-item:hover {
+  background-color: #2d2d30;
+}
+
+.project-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.expand-icon {
+  margin-right: 8px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.project-name {
+  color: #4ec9b0;
+  font-weight: 500;
+}
+
+.project-details {
+  margin-top: 10px;
+  padding-left: 24px;
+  font-size: 0.9em;
+  color: #9cdcfe;
+}
+
+.project-detail-row {
+  margin-bottom: 5px;
+}
+
+.detail-label {
+  color: #808080;
+  margin-right: 8px;
+}
+
+.detail-value {
+  color: #d4d4d4;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #808080;
+}
+
+.empty-state p {
+  margin: 10px 0;
+}
+
+/* Create Project Widget */
+.project-list-footer {
+  border-top: 1px solid #3c3c3c;
+  padding-top: 20px;
+}
+
+.create-project-widget {
+  background-color: #0e639c;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.create-project-widget:hover {
+  background-color: #1177bb;
+}
+
+.create-icon {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.create-text {
+  font-weight: 500;
+}
+
+/* Error State */
+.error {
+  color: #f48771;
+  padding: 20px;
+}
+
+/* Loading State */
+.project-list-container > div {
+  color: #d4d4d4;
+}
